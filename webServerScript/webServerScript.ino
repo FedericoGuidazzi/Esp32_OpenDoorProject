@@ -31,7 +31,7 @@ const int pinPortone = 5;
 const int pinCancello = 4;
 
 // you need to replace the string with a base64 encrypted username and password with the form of username:password (the length of both username and password are unrelevant).
-const char* base64Encoding = "***:***";  // base64encoding casa:nostra
+const char* base64Encoding = "***:***";
 
 void setup() {
   Serial.begin(115200);
